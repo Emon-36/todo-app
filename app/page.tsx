@@ -94,52 +94,8 @@ export default function Home() {
           <button className="px-4 py-2 rounded-xl text-sm font-medium bg-gray-800 text-gray-400 hover:bg-gray-700">Active</button>
           <button className="px-4 py-2 rounded-xl text-sm font-medium bg-gray-800 text-gray-400 hover:bg-gray-700">Completed</button>
         </div>
-
-        {/* Dummy Todo Items */}
-        <div className="flex flex-col gap-3">
-
-          {/* Item 1 */}
-          <div className="bg-gray-900 rounded-2xl px-5 py-4 flex items-start gap-4 shadow">
-            <input type="checkbox" className="mt-1 w-5 h-5 accent-indigo-500 cursor-pointer" />
-            <div className="flex-1">
-              <p className="font-medium text-white">Learn Zustand state management</p>
-              <div className="flex gap-3 mt-1 text-xs text-gray-500">
-                <span className="bg-gray-800 px-2 py-0.5 rounded-full">study</span>
-                <span className="font-semibold text-red-500">high</span>
-                <span>📅 2025-04-15</span>
-              </div>
-            </div>
-            <button className="text-gray-600 hover:text-red-500 transition text-xl">✕</button>
-          </div>
-
-          {/* Item 2 */}
-          <div className="bg-gray-900 rounded-2xl px-5 py-4 flex items-start gap-4 shadow opacity-50">
-            <input type="checkbox" defaultChecked className="mt-1 w-5 h-5 accent-indigo-500 cursor-pointer" />
-            <div className="flex-1">
-              <p className="font-medium line-through text-gray-500">Setup Next.js project</p>
-              <div className="flex gap-3 mt-1 text-xs text-gray-500">
-                <span className="bg-gray-800 px-2 py-0.5 rounded-full">work</span>
-                <span className="font-semibold text-green-500">low</span>
-              </div>
-            </div>
-            <button className="text-gray-600 hover:text-red-500 transition text-xl">✕</button>
-          </div>
-
-          {/* Item 3 */}
-          <div className="bg-gray-900 rounded-2xl px-5 py-4 flex items-start gap-4 shadow">
-            <input type="checkbox" className="mt-1 w-5 h-5 accent-indigo-500 cursor-pointer" />
-            <div className="flex-1">
-              <p className="font-medium text-white">Build CV with JS projects</p>
-              <div className="flex gap-3 mt-1 text-xs text-gray-500">
-                <span className="bg-gray-800 px-2 py-0.5 rounded-full">personal</span>
-                <span className="font-semibold text-yellow-500">medium</span>
-                <span>📅 2025-04-14</span>
-              </div>
-            </div>
-            <button className="text-gray-600 hover:text-red-500 transition text-xl">✕</button>
-          </div>
-
-        </div>
+            
+        
       </div>
     </main>
   )
