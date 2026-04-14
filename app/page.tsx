@@ -36,7 +36,7 @@ export default function Home() {
           Active Schedulizer
         </h1>
         <p className="text-center text-gray-500 mb-8 text-sm">
-          3 tasks remaining
+          {todos.filter(t => !t.completed).length} tasks remaining
         </p>
 
         {/* Input Section */}
