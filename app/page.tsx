@@ -56,10 +56,10 @@ export default function Home() {
               onChange={(e) => setCategory(e.target.value as Category)}
               className="bg-gray-800 rounded-xl px-3 py-2 text-sm text-gray-300 outline-none"
             >
-              <option>Personal</option>
-              <option>Work</option>
-              <option>Study</option>
-              <option>Other</option>
+              <option value="personal">Personal</option>
+              <option value="work">Work</option>
+              <option value="study">Study</option>
+              <option value="other">Other</option>
             </select>
 
             <select 
@@ -67,9 +67,9 @@ export default function Home() {
               onChange={(e)=> setPriority(e.target.value as Priority)}
               className="bg-gray-800 rounded-xl px-3 py-2 text-sm text-gray-300 outline-none"
             >
-              <option>Low Priority</option>
-              <option>Medium Priority</option>
-              <option>High Priority</option>
+              <option value="low">Low Priority</option>
+              <option value="medium">Medium Priority</option>
+              <option value="high">High Priority</option>
             </select>
 
 
@@ -94,7 +94,7 @@ export default function Home() {
           <button className="px-4 py-2 rounded-xl text-sm font-medium bg-gray-800 text-gray-400 hover:bg-gray-700">Active</button>
           <button className="px-4 py-2 rounded-xl text-sm font-medium bg-gray-800 text-gray-400 hover:bg-gray-700">Completed</button>
         </div>
-            
+
         
       </div>
     </main>
